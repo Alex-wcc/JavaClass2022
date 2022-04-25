@@ -7,7 +7,7 @@ import javax.swing.JMenuBar;
 public class TestMenuBar {
     public static void main(String[] args) {
 
-        JFrame f = new JFrame("LoL");
+        JFrame f = new JFrame("IDEA");
         f.setSize(400, 300);
         f.setLocation(200, 200);
 
