@@ -45,19 +45,19 @@ public class MouseEvent {
             // 鼠标进入
             public void mouseEntered(java.awt.event.MouseEvent e) {
 
-                Random r = new Random();
 
-                int x = r.nextInt(f.getWidth() - l.getWidth());
-                int y = r.nextInt(f.getHeight() - l.getHeight());
-
-                l.setLocation(x, y);
 
             }
 
             // 按下释放组合动作为点击鼠标
             public void mouseClicked(java.awt.event.MouseEvent e) {
                 // TODO Auto-generated method stub
+                Random r = new Random();
 
+                int x = r.nextInt(f.getWidth() - l.getWidth());
+                int y = r.nextInt(f.getHeight() - l.getHeight());
+
+                l.setLocation(x, y);
             }
         });
 

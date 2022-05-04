@@ -8,7 +8,7 @@ import javax.swing.JFrame;
 public class TestFlowLayout {
     public static void main(String[] args) {
 
-        JFrame f = new JFrame("LoL");
+        JFrame f = new JFrame("IDEA");
         f.setSize(400, 300);
         f.setLocation(200, 200);
         // 设置布局器为FlowLayerout
