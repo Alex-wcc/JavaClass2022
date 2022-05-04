@@ -12,8 +12,7 @@ public class LinkedHashMapDemo {
 		LinkedHashMap<String, String> map = new LinkedHashMap<String, String>();
 
 		// 添加元素
-		map.put("文章", "马伊俐");
-		map.put("谢霆锋", "张柏芝");
+		map.put("谢霆锋", "王菲");
 		map.put("田亮", "叶一茜");
 		map.put("汪峰", "章子怡");
 

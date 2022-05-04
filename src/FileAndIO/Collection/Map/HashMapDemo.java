@@ -21,6 +21,7 @@ public class HashMapDemo {
 		hm.put("李冰冰", "黑龙江");
 		hm.put("范冰冰", "山东");
 
+
 		// 遍历
 		// 方式1
 		Set<String> keySet = hm.keySet();

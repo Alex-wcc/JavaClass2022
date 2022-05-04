@@ -19,11 +19,10 @@ import java.util.Set;
 public class MapDemo1 {
 	public static void main(String[] args) {
 		// 创建集合对象
-		Map<String, String> map = new HashMap<String, String>();
+		Map map = new HashMap();
 
 		// 创建并添加元素
-		map.put("文章", "马伊俐");
-		map.put("谢霆锋", "张柏芝");
+		map.put("谢霆锋", "王菲");
 		map.put("田亮", "叶一茜");
 		map.put("汪峰", "章子怡");
 
@@ -33,7 +32,7 @@ public class MapDemo1 {
 		// 遍历键的Set集合，获取到每一个键
 		for (String key : set) {
 			// 根据键到Map集合中找对应的值
-			String value = map.get(key);
+			String value = (String) map.get(key);
 			System.out.println(key + "---" + value);
 		}
 	}
