@@ -1,4 +1,4 @@
-package FileAndIO.Collection.Map;
+package Collection.Map;
 
 import java.util.LinkedHashMap;
 import java.util.Set;

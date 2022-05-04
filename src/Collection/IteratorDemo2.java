@@ -1,4 +1,4 @@
-package FileAndIO.Collection;
+package Collection;
 
 import java.util.ArrayList;
 import java.util.Iterator;

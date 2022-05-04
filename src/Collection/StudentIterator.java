@@ -1,4 +1,4 @@
-package FileAndIO.Collection;
+package Collection;
 
 
 public class StudentIterator {

@@ -1,4 +1,4 @@
-package FileAndIO.Collection.list;
+package Collection.list;
 
 public class Student {
     private String name;

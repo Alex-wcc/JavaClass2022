@@ -1,4 +1,4 @@
-package FileAndIO.Collection.list;
+package Collection.list;
 
 import java.util.ArrayList;
 import java.util.List;

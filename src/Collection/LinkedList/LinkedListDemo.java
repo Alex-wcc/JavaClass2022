@@ -1,4 +1,4 @@
-package FileAndIO.Collection.LinkedList;
+package Collection.LinkedList;
 
 import java.util.LinkedList;
 
