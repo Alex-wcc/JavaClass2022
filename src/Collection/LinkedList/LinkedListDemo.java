@@ -36,6 +36,7 @@ public class LinkedListDemo {
 
         // Object getFirst()
         // Object getLast()
+
         System.out.println("getFirst:" + link.getFirst());
         System.out.println("getLast:" + link.getLast());
 
