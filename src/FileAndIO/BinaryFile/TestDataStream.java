@@ -9,6 +9,7 @@ public class TestDataStream {
                       new DataOutputStream(new FileOutputStream("temp1.dat"));
         ) {
             // Write student test scores to the file
+            output.write('a');
             output.writeUTF("John");
             output.writeDouble(85.5);
             output.writeUTF("Jim");
